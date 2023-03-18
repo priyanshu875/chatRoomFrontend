@@ -105,7 +105,7 @@ function Chat(props){
                     <div className="user-name">
                     {       
                             activeUsers.map(user=>{
-                            if(user.id==props.userId)return(<p>- {user.name} (Me)</p>)
+                            if(user.id===props.userId)return(<p>- {user.name} (Me)</p>)
                             return(<p>- {user.name}</p>)
                             })
 
@@ -140,7 +140,7 @@ function Chat(props){
                 <div className="chat-cont">
                     {
                         chats.map((chat)=>{
-                            if(chat.data.type=="image/jpg"){
+                            if(chat.data.type==="image/jpg"){
                                 const blob=new Blob([chat.data.body],{type:chat.data.type});
                                 return(
                                     <div className="chat">
