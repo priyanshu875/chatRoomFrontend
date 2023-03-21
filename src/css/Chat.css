@@ -150,3 +150,17 @@ textarea:focus{
     padding-left: 2rem;
     padding-top: 5px;
 }
+
+.chat-page .left-panel .logo{
+    font-size: 2rem;
+    /* margin: 0.5rem 1rem 1rem 3rem ; */
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    font-weight: 800;
+    border: 1px solid white;
+    text-align: center;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    padding-bottom:10px ;
+    padding-top: 10px;
+}

@@ -98,6 +98,10 @@ function Chat(props){
             
             {/* right panel */}
             <div className="left-panel">
+                <div>
+                    <h1 className="logo">Welcome, {props.userName}</h1>
+                    
+                </div>
 
                 <div className="active-users">
 

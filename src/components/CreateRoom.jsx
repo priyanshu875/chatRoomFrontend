@@ -30,7 +30,7 @@ function CreateRoom(){
         <div className="form-page-cont">
             {
                 log
-                ? < Chat userId={id} />
+                ? < Chat userId={id} userName={name} />
                 :  <div className="form-cont">
                     <h1 className="form-heading">"Welcome_To_Create"</h1>
                         <form onSubmit={create}>

@@ -50,12 +50,13 @@ function JoinRoom(){
     }
     else if(onRequest && !log){
         comp=<div>
-                <p>wait your request is in progress</p>
+                <p className="notify">Your response is hoping on its way...🐰</p>
         </div>
     }
     else if(log && !onRequest){
         comp=<Chat 
                 userId={id}
+                userName={name}
              />
     }
 

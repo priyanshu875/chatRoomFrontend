@@ -5,7 +5,7 @@ import io from "socket.io-client";
 // import { CreateRoom } from "./CreateRoom";
 // import { JoinRoom } from "./JoinRoom";
 
-const socket=io.connect("https://chatroombackend-vgu5.onrender.com");
+const socket=io.connect("http://localhost:5000");
 
 
 function Home(){
@@ -13,7 +13,7 @@ function Home(){
         <div className="home-cont">
             <div className="heading"><h1>Chat_Rooms</h1></div>
             <div className="links-cont">
-                    
+                {/* <a href="https://chatroomclone.netlify.app/nfrub84rfn">CreateRoom</a> */}
                 <Link to="/fnrgjn484" className="link-one"><p>JoinRoom </p></Link>
                 <Link to="/nfrub84rfn" className="link-two"><p>CreateRoom</p></Link>
             </div>
