@@ -5,7 +5,7 @@ import io from "socket.io-client";
 // import { CreateRoom } from "./CreateRoom";
 // import { JoinRoom } from "./JoinRoom";
 
-const socket=io.connect("http://localhost:5000");
+const socket=io.connect("https://chatroombackend-vgu5.onrender.com");
 
 
 function Home(){
